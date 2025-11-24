@@ -14,17 +14,13 @@
 }
 
 .nav-logo{
-    height: 50px;
+    height: 57px;
     width: 200px;
     border: 1px solid black;
 }
 
-
 .logo{
     background-image: url("smartstitch-logo.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100%;
     width:100%;
 }
@@ -191,7 +187,7 @@ span{
 }
 .shop{
     height: 500px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 23%;
     background-color: white;
     padding: 20px 0px  15px;
@@ -302,7 +298,6 @@ ul{
     color: white;
     height: 100px;
     text-align: center;
-    margin-top: 20px;
 }
 
 .pages{
