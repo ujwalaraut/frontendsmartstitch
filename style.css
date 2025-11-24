@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    justify-content: space-evenly;
+    height: 60;
+    background-color: #218416;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+
+.logo{
+    background-image: url("smartstitch-logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+}
+
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box-2 */
+.nav-address-first{
+    color: #CCCCCC;
+    font-size: 0.85 rem;
+    margin-left: 19px ;
+}
+
+.nav-address-one{
+    color: #FFFFFF;
+    font-size: 1 rem;
+}
+
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+/* box-3 */
+.nav-search-bar{
+    justify-content: space-evenly;
+    font-size: 2 rem;
+    height: 40px;
+    width: 1000px;
+    display:flex;
+    background-color: pink;
+    border-radius: 4px;
+}
+
+.nav-search-bar:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    color: #0f1111;
+    background-color: #e4d9d9;
+    width: 75px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+.search-input{
+    width: 850px;
+    border: none;
+}
+
+.nav-search-bar ::placeholder{
+    font-size: 16px;
+}
+
+.search-icon{
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3 rem;
+    background-color: rgb(255, 145, 0);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0F1111;
+}
+
+/* box-4 */
+
+span{
+    font-size: 0.7 rem;
+}
+.nav-second{
+    font-size: 0.9 rem;
+    font-weight: 700;
+}
+
+/* box-5 */
+.nav-order{
+    font-size: 0.9 rem;
+    font-weight: 700;
+}
+
+/* box-6 */
+.cart-icon i{
+    font-size: 35px;
+}
+
+.cart-icon {
+    font-size: 0.85 rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel-all{
+    height: 60;
+    background-color: #14490e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box-1 */
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85 rem;
+}
+
+.panel-deals{
+    font-size: 0.9 rem;
+    font-weight: 700;
+}
+
+.all-border i{
+    font-size: 35 px;
+}
+
+.nav-hero{
+    background-image: url("hero.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:1875px;
+    height: 500px;
+
+}
+
+.nav-hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85 rem;
+}
+
+.nav-hero-msg a{
+    color: #2162A1;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f59648;
+}
+.shop{
+    height: 500px;
+    border: 5px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px  15px;
+}
+
+.box1-img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("student-male.jpg");
+}
+
+.box2-img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("student-female.jpg");
+}
+
+.box3-img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("staff-male.jpg");
+}
+
+.box4-img{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("staff-female.jpg");
+}
+
+
+
+
+
+.stu-male p{
+    color: #2162A1;;
+}
+
+.stu-female p{
+    color: #2162A1;;
+}
+
+.staff-male p{
+    color: #2162A1;;
+}
+
+.staff-female p{
+    color: #2162A1;;
+}
